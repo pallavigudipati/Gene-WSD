@@ -1,0 +1,43 @@
+\documentclass{article}[11pt]
+\textheight 8.5in
+\begin{document}
+\begin{center}
+Pallavi Gudipati\\
+Week of 2/12/2014 - 8/12/2014
+\end{center}
+\section{Summary of Discussions}
+\begin{itemize}
+\item Brush up on word sense disambiguation techniques currently in use. 
+\item Apply WSD on the DNA level and use the information from the RNA and protein levels for it.
+\item Define and use ontological relations between the above mentioned layers to help in knowledge extraction.
+\item Use unsupervised methods to get the senses and then use supervised methods.
+\end{itemize}
+
+\section{Papers Read}
+Roberto Navigli. 2009. Word sense disambiguation: A survey. \textit{ACM Comput. Surv.} 41, 2, Article 10 (February 2009), 69 pages. \\[4pt]
+This paper gives a brief summary of the techniques that have been used to solve the Word sense disambiguation problem. It describes different methods for the selection of word senses as well as representation of contexts. The paper also differentiates between different types of classification methods:
+\begin{itemize}
+\item \textbf{Supervised:} Decision Lists, Decision Trees, Naive Bayes, Neural Networks, Instance-based, SVMs, Ensemble methods
+\item \textbf{Semi-supervised:} Boostrapping, Active Learning
+\item \textbf{Unsupervised:} Context Clustering, Word Clustering, Co-occurence graphs, Other graph based approaches
+\end{itemize}
+The paper also lists out other approaches and topics that are domain specific to languages.
+
+% But how can we say that only nearby words effect in the case of DNA? The concept of neighborhood needs to be defined.
+% Can we start off with some simple Naive Bayes - as a baseline?
+% Use clustering to get senses
+
+\section{New Directions}
+\begin{itemize}
+\item Will need to define what a neighborhood means in this domain. In NLP, we generally assume that only nearby words affect the word under consideration, which might not be true in this domain.
+\item Will need to think about the baselines that we will use. Can use methods already implemented in this domain as well as naive methods from WSD. % earlier lit? next plan of action
+\end{itemize}
+
+\section{Plan of Action}
+\begin{itemize}
+\item Literature survey specific to the problem statement.
+\item Brush up on the biology related concepts.
+\end{itemize}
+
+
+\end{document}
